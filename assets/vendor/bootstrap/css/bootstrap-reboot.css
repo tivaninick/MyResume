@@ -486,6 +486,7 @@ button,
 [type=button],
 [type=reset],
 [type=submit] {
+  appearance: button;
   -webkit-appearance: button;
 }
 button:not(:disabled),
@@ -543,6 +544,7 @@ legend + * {
 }
 
 [type=search] {
+  appearance: button;
   -webkit-appearance: textfield;
   outline-offset: -2px;
 }
@@ -570,6 +572,7 @@ legend + * {
 
 ::file-selector-button {
   font: inherit;
+  appearance: button;
   -webkit-appearance: button;
 }
 
