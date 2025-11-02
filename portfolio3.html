@@ -26,7 +26,7 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
- <!-- Main CSS File -->
+  <!-- Main CSS File -->
   <link href="assets/CSS/main.css" rel="stylesheet">
 
   <!-- =======================================================
@@ -73,23 +73,26 @@
 
       <div class="container" data-aos="fade-up">
 
-        <div class="portfolio-details-slider swiper">
-
-          <div class="swiper-wrapper align-items-center " >
-
-            <div class="swiper-slide">
-              <img src="Projects\Task manager\1.jpg" alt="" >
+        <!--changes -->
+        <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Projects\Task manager\1.jpg" class="d-block w-100 img-fluid" alt="Project image 1">
             </div>
-
-
-            <div class="swiper-slide">
-              <img src="Projects\Task manager\3.jpg" alt="">
+            <div class="carousel-item">
+              <img src="Projects\Task manager\3.jpg" class="d-block w-100 img-fluid" alt="Project image 2">
             </div>
-
           </div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-pagination"></div>
+
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
 
         <div class="row justify-content-between gy-4 mt-4">
@@ -98,8 +101,8 @@
             <div class="portfolio-description">
               <h2>This is the Task Manager design</h2>
               <p>
-                Comprehensive Figma-based UX design for a modern Task Planner application. 
-                The design emphasizes productivity, intuitive task flow, scheduling efficiency, 
+                Comprehensive Figma-based UX design for a modern Task Planner application.
+                The design emphasizes productivity, intuitive task flow, scheduling efficiency,
                 and cross-platform compatibility across web and mobile interfaces.
               </p>
 
@@ -116,7 +119,7 @@
                 </div>
               </div>
 
-         
+
 
             </div>
           </div>
@@ -146,7 +149,7 @@
     <div class="container">
       <h3 class="sitename">Tivani Mathebula</h3>
       <p>Thank you for visiting! Let's connect and explore new opportunities</p>
-      <div class="social-links d-flex justify-content-center">       
+      <div class="social-links d-flex justify-content-center">
         <a href=""><i class="bi bi-facebook"></i></a>
         <a href=""><i class="bi bi-instagram"></i></a>
         <a href=""><i class="bi bi-linkedin"></i></a>

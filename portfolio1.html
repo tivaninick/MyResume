@@ -25,8 +25,8 @@
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  
-<!-- Main CSS File -->
+
+  <!-- Main CSS File -->
   <link href="assets/CSS/main.css" rel="stylesheet">
 
   <!-- =======================================================
@@ -73,22 +73,29 @@
 
       <div class="container" data-aos="fade-up">
 
-        <div class="portfolio-details-slider swiper">
-          <div class="swiper-wrapper align-items-center " >
 
-            <div class="swiper-slide">
-              <img src="Projects\MLS\1.jpg" alt="" >
+        <!--changes -->
+        <div id="projectCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="Projects\MLS\1.jpg" class="d-block w-100 img-fluid" alt="Project image 1">
             </div>
-
-            <div class="swiper-slide">
-              <img src="Projects\MLS\3.jpg" alt="">
+            <div class="carousel-item">
+              <img src="Projects\MLS\3.jpg" class="d-block w-100 img-fluid" alt="Project image 2">
             </div>
-
           </div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-          <div class="swiper-pagination"></div>
+
+          <!-- Controls -->
+          <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
+
 
         <div class="row justify-content-between gy-4 mt-4">
 
@@ -96,20 +103,24 @@
             <div class="portfolio-description">
               <h2>This is the Learning Management System design</h2>
               <p>
-                LMS is an internal project aimed at building a full-scale educational platform designed for learners across levels. 
-                It features course delivery, tracking, student portals, branded themes per institution, and is built for scalability. 
+                LMS is an internal project aimed at building a full-scale educational platform designed for learners
+                across levels.
+                It features course delivery, tracking, student portals, branded themes per institution, and is built for
+                scalability.
                 This project reflects our team’s passion for learning and academic excellence.
 
-                The LMS project was inspired by a personal commitment to education—aiming to provide academic tools to learners of every level. 
-                The backend offers detailed student analytics while the front end provides a distraction-free learning environment with gamified elements.
+                The LMS project was inspired by a personal commitment to education—aiming to provide academic tools to
+                learners of every level.
+                The backend offers detailed student analytics while the front end provides a distraction-free learning
+                environment with gamified elements.
               </p>
 
               <div class="testimonial-item">
                 <p>
                   <i class="bi bi-quote quote-icon-left"></i>
                   <span>The new LMS design is fantastic! You've done an amazing job of bringing our vision to
-                          life. Your attention to detail and commitment to quality are truly appreciated. Thanks again
-                          for your excellent work!</span>
+                    life. Your attention to detail and commitment to quality are truly appreciated. Thanks again
+                    for your excellent work!</span>
                   <i class="bi bi-quote quote-icon-right"></i>
                 </p>
                 <div>
@@ -119,7 +130,7 @@
                 </div>
               </div>
 
-         
+
 
             </div>
           </div>
@@ -149,7 +160,7 @@
     <div class="container">
       <h3 class="sitename">Tivani Mathebula</h3>
       <p>Thank you for visiting! Let's connect and explore new opportunities</p>
-      <div class="social-links d-flex justify-content-center">       
+      <div class="social-links d-flex justify-content-center">
         <a href=""><i class="bi bi-facebook"></i></a>
         <a href=""><i class="bi bi-instagram"></i></a>
         <a href=""><i class="bi bi-linkedin"></i></a>
